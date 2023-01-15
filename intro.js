@@ -41,9 +41,9 @@ setTimeout(() => {
     slider3.classList.add("active")
 }, 11000)
 
-// mail.onclick = function () {
-//     slider3.classList.add("active")
-// }
+mail.onclick = function () {
+    slider3.classList.add("active")
+}
 closeSlider3.addEventListener('click', function () {
     slider3.classList.remove('active')
 })
